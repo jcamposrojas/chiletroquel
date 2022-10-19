@@ -271,7 +271,7 @@
 		    <div class="col-8" style="padding-left:0px;padding-top:10px;">
 			<div style="border:1px solid black;width=100%;padding-left:2px;">
 				<span><strong>OBSERVACIONES: </strong></span>
-					<span t-field="o.narration"/></span>
+					<span t-field="o.narration"/>
 			</div>
 			<br/>
 			<span>DOCUMENTO(S) DE REFERENCIA</span>
