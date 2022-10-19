@@ -71,7 +71,7 @@
 		    <div class="row">
                     <div name="left-upper-side" class="col-8">
 		        <div class="row" style="padding-left: 0px;">
-                            <img t-if="o.company_id.logo" t-att-src="image_data_uri(o.company_id.logo)" style="max-height: 55px;" alt="Logo"/>
+                            <img t-if="o.company_id.logo" t-att-src="image_data_uri(o.company_id.logo)" style="max-height: 65px;" alt="Logo"/>
 	                </div>
                         <strong><span t-field="o.company_id.partner_id.name"/></strong>
                         <br/>
@@ -277,10 +277,6 @@
 			<div style="border:1px solid black;width=100%;padding-left:2px;">
 				<span><strong>OBSERVACIONES: </strong></span>
 					<span t-field="o.note"/>
-					<!-- Comentado texto en duro
-					<div>La garantía está regida por el manual de instalación que se entrega con cada producto. En caso de requerir el manual de instalación del producto acceder a: https://www.buckybuck.cl/postventa.</div>
-					<div>Este documento se acoge a los Términos y Condiciones publicados en: https://www.buckybuck.cl/productos/terms-conditions/</div>
-					-->
 			</div>
 			<br/>
 			<span>DOCUMENTO(S) DE REFERENCIA</span>

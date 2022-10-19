@@ -1,6 +1,6 @@
 {
     'name': 'Adecuaciones. Formato Factura',
-    'version': '15.0.7',
+    'version': '15.0.8',
     'category': '',
     'sequence': 6,
     'license': 'LGPL-3',
