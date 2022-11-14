@@ -18,6 +18,6 @@ class HRHolidays(models.Model):
             dias = math.ceil(time_delta.days + float(time_delta.seconds) / 86400)
             # JCR. No ocupa campo hours
             hours = 0
-            return {'days': days, 'hours': hours}
+            return {'days': dias, 'hours': hours}
         else:
             return super(HRHolidays, self)._get_number_of_days(date_from, date_to, employee_id)
